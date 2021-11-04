@@ -31,7 +31,7 @@ Fastest excell - jiraAPI integration with macros or import bas file on VBA
     End Function
 
 
-Function on excell cell: "=getTaskStatus("https://your-jira.ru/rest/api/2/issue/" & A2 & ".json")"
+Function on excell cell: "=getTaskStatus("https://domain-jira.ru/rest/api/2/issue/" & A2 & ".json")"
 
 **Macro event by onclick button:**.
    
