@@ -57,6 +57,6 @@ Function on excell cell: "=getTaskStatus("https://domain-jira.ru/rest/api/2/issu
         Range("D" & i) = Json("fields")("created")
         Range("E" & i) = Json("fields")("summary")
       Next
-      MsgBox "Готово!"
+      MsgBox "Done!"
     End Sub
       
